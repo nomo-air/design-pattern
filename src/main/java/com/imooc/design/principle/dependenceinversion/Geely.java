@@ -4,7 +4,7 @@ public class Geely {
 
     private ICourse iCourse;
 
-    public Geely(ICourse iCourse) {
+    public void setiCourse(ICourse iCourse) {
         this.iCourse = iCourse;
     }
 
