@@ -1,6 +1,6 @@
 package com.imooc.design.principle.liskovSubstitution;
 
-public class Square extends Rectangle{
+public class Square implements Quadrangle{
 
     private long sideLength;
 
@@ -13,22 +13,12 @@ public class Square extends Rectangle{
     }
 
     @Override
-    public long getLength() {
-        return getSideLength();
-    }
-
-    @Override
-    public void setLength(long length) {
-        setSideLength(length);
-    }
-
-    @Override
     public long getWidth() {
-        return getSideLength();
+        return sideLength;
     }
 
     @Override
-    public void setWidth(long width) {
-        setSideLength(width);
+    public long getLength() {
+        return sideLength;
     }
 }
