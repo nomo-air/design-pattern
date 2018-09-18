@@ -1,4 +1,4 @@
-package com.imooc.design.principle.liskovSubstitution.methodoutput;
+package com.imooc.design.principle.liskovsubstitution.methodoutput;
 
 public class Test {
     public static void main(String[] args) {

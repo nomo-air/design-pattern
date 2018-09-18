@@ -1,4 +1,4 @@
-package com.imooc.design.principle.liskovSubstitution;
+package com.imooc.design.principle.liskovsubstitution;
 
 public interface Quadrangle {
     long getWidth();

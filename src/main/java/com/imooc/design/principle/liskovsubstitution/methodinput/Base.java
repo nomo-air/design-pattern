@@ -1,7 +1,6 @@
-package com.imooc.design.principle.liskovSubstitution.methodinput;
+package com.imooc.design.principle.liskovsubstitution.methodinput;
 
 import java.util.HashMap;
-import java.util.Map;
 
 public class Base {
     public void method(HashMap map){

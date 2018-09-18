@@ -1,4 +1,4 @@
-package com.imooc.design.principle.liskovSubstitution.methodoutput;
+package com.imooc.design.principle.liskovsubstitution.methodoutput;
 
 import java.util.HashMap;
 import java.util.Map;

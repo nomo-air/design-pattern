@@ -1,4 +1,4 @@
-package com.imooc.design.principle.liskovSubstitution;
+package com.imooc.design.principle.liskovsubstitution;
 
 public class Test {
     public static void resize(Rectangle rectangle) { // 如果用Quadrangle，quadrangle.setWidth()会报错
