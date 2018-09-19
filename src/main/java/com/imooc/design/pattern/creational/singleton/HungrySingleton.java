@@ -11,16 +11,17 @@ public class HungrySingleton implements Serializable,Cloneable{
         hungrySingleton = new HungrySingleton();
     }
     private HungrySingleton(){
-
+        if(hungrySingleton != null){
+            throw new RuntimeException("单例构造器禁止反射调用");
+        }
     }
     public static HungrySingleton getInstance(){
         return hungrySingleton;
     }
 
     // 可以防止序列化破坏单例
-    private Object readResolve() {
+    private Object readResolve(){
         return hungrySingleton;
-
     }
 
 }
