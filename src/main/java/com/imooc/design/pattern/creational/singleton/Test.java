@@ -9,13 +9,13 @@ import java.lang.reflect.Constructor;
 
 public class Test {
     public static void main(String[] args) throws Exception {
-        /*
+
         Thread myThread1 = new Thread(new MyThread());
         Thread myThread2 = new Thread(new MyThread());
         myThread1.start();
         myThread2.start();
         System.out.println("程序执行结束");
-        */
+
 
         // 序列化测试
         /*
@@ -43,6 +43,7 @@ public class Test {
         */
 
         // 枚举测试
+        /*
         EnumInstance instance = EnumInstance.getInstance();
         instance.setData(new Object());
         ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream("singleton_file"));
@@ -54,6 +55,7 @@ public class Test {
         System.out.println(newInstance.getData());
         System.out.println(instance.getData() == newInstance.getData());
         instance.printTest();
+        */
 
     }
 }
