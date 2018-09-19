@@ -7,5 +7,8 @@ public class StaticInnerClassSingleton {
     public static StaticInnerClassSingleton getInstance(){
         return InnerClass.staticInnerClassSingleton;
     }
+    private StaticInnerClassSingleton(){
+
+    }
 
 }
