@@ -24,4 +24,9 @@ public class HungrySingleton implements Serializable,Cloneable{
         return hungrySingleton;
     }
 
+    // 防止克隆破坏单例
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return getInstance();
+    }
 }

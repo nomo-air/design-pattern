@@ -6,15 +6,18 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.reflect.Constructor;
+import java.lang.reflect.Method;
 
 public class Test {
     public static void main(String[] args) throws Exception {
 
+        /*
         Thread myThread1 = new Thread(new MyThread());
         Thread myThread2 = new Thread(new MyThread());
         myThread1.start();
         myThread2.start();
         System.out.println("程序执行结束");
+        */
 
 
         // 序列化测试
@@ -56,6 +59,16 @@ public class Test {
         System.out.println(instance.getData() == newInstance.getData());
         instance.printTest();
         */
+
+        // 拷贝测试
+        HungrySingleton hungrySingleton = HungrySingleton.getInstance();
+        Method method = hungrySingleton.getClass().getDeclaredMethod("clone");
+        method.setAccessible(true);
+        HungrySingleton cloneHungrySingleton = (HungrySingleton) method.invoke(hungrySingleton);
+        System.out.println(hungrySingleton);
+        System.out.println(cloneHungrySingleton);
+        System.out.println(hungrySingleton == cloneHungrySingleton);
+
 
     }
 }
