@@ -1,4 +1,5 @@
-package com.imooc.design.pattern.structural.classadapter;
+package com.imooc.design.pattern.structural.adapter.objectdapter;
+
 
 public class ConcreteTarget implements Target{
     @Override
