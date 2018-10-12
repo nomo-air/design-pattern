@@ -17,11 +17,11 @@ public class Course {
     }
 
     public static class CourseBuilder {
-        private String courseName;
-        private String coursePPT;
-        private String courseVideo;
+        private String courseName = "默认课程名字";
+        private String coursePPT = "默认课程PPT";
+        private String courseVideo = "默认课程视频";
         private String courseArticle;
-        private String courseQA;
+        private String courseQA = "默认课程问答";
 
         public CourseBuilder buildCourseName(String courseName) {
             this.courseName = courseName;
