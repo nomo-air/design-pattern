@@ -7,5 +7,10 @@ public class Test {
         PromotionActivity promotionActivity1111 = new PromotionActivity(new FanXianPromotionStrategy());
         promotionActivity618.excutePromotionStrategy();
         promotionActivity1111.excutePromotionStrategy();
+
+
+        String promotionKey = "MANJIAN";
+        PromotionActivity promotionActivity = new PromotionActivity(PromotionStrategyFactory.getPromotionStrategy(promotionKey));
+        promotionActivity.excutePromotionStrategy();
     }
 }
