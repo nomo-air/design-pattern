@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.strategy;
+package com.imooc.design.pattern.behavioral.strategy;
 
 import java.util.HashMap;
 import java.util.Map;

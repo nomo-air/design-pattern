@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.iterator;
+package com.imooc.design.pattern.behavioral.iterator;
 
 public class Course {
     private String name;

@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.interpreter;
+package com.imooc.design.pattern.behavioral.interpreter;
 
 public class OperatorUtil {
 

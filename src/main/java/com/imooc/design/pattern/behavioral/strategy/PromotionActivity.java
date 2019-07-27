@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.strategy;
+package com.imooc.design.pattern.behavioral.strategy;
 
 public class PromotionActivity {
     private PromotionStrategy promotionStrategy;

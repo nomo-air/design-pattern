@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.iterator;
+package com.imooc.design.pattern.behavioral.iterator;
 
 import java.util.ArrayList;
 import java.util.List;

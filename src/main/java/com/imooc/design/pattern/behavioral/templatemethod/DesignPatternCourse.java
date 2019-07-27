@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.templatemethod;
+package com.imooc.design.pattern.behavioral.templatemethod;
 
 public class DesignPatternCourse extends ACourse {
 

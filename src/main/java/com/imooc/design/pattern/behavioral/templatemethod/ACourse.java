@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.templatemethod;
+package com.imooc.design.pattern.behavioral.templatemethod;
 
 public abstract class ACourse {
     protected final void makeCourse() {

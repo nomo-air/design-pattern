@@ -1,4 +1,4 @@
-package com.imooc.design.behavioral.interpreter;
+package com.imooc.design.pattern.behavioral.interpreter;
 
 import org.springframework.expression.Expression;
 import org.springframework.expression.ExpressionParser;
