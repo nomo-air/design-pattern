@@ -33,7 +33,7 @@
 1       ：只能有1个实例
 1..*    ：至少有1个实例
 ```
-<img src="http://flowerman.cc/design-pattern/1.png" width = 100% />
+![UML类图](./images/1.png)
 
 ### 设计原则
 #### 开闭原则
@@ -91,6 +91,13 @@
 ```
 
 ### 模式
+#### 设计模式分类
+ --    | 创建型                           | 结构型                                 | 行为型                          
+---   |---                              |---                                    |---                                  
+类     | Factory Method（工场方法）         | Adapter(类)（适配器）                   |  Interpreter（解释器）<br> Template Method（模版方法）    
+对象   | Abstract Factory （抽象工厂）<br> Builder（建造者）<br> Prototype（原型）<br> Singleton（单例）| Adapter(对象)（适配器）<br> Bridge（桥接）<br> Composite（组合）<br> Decorator（装饰器）<br> Facade（外观）<br> Flyweight（享元）<br> Proxy（代理） |  Chain of Responsibility（责任链）<br> Command（命令）<br> Iterator（迭代器）<br> Mediator（中介者）<br> Memento（备忘录）<br> Observer（观察者）<br> State（状态）<br> Strategy（策略）<br> Visitor（访问者）<br>   
+
+
 #### 简单工厂
 ```
 定义与类型

@@ -13,9 +13,11 @@ public class Test {
         // Integer 测试
         Integer a = Integer.valueOf(100);
         Integer b = 100;
+        System.out.println("a == b：" + (a == b));
+
+
         Integer c = Integer.valueOf(1000);
         Integer d = 1000;
-        System.out.println("a == b：" + (a == b));
         System.out.println("c == d：" + (c == d));
     }
 }
