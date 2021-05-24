@@ -1,6 +1,5 @@
 package com.imooc.design.pattern.behavioral.chainofresponsibility;
 
-
 import org.apache.commons.lang3.StringUtils;
 
 public class VideoApprover extends Approver {
